@@ -1,13 +1,21 @@
 {
-  "name": "auth-google-1",
+  "name": "oauth2.0-google-auth",
   "version": "1.0.0",
-  "description": "",
+  "description": "Google OAuth 2.0 authentication implementation using Express and Passport.js",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "oauth2",
+    "google-auth",
+    "passport",
+    "passport-google-oauth20",
+    "express",
+    "nodejs"
+  ],
+  "author": "Maharshi Desai",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
